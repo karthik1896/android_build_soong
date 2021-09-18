@@ -96,7 +96,8 @@ var Configuration = map[string]PathConfig{
 	"unlzma":  Allowed,
 	"xz":      Allowed,
 	"zip":     Allowed,
-
+	"arm-linux-androidkernel-as": Allowed,
+	"arm-linux-androidkernel-ld": Allowed,
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
 	"ar":         Forbidden,
